@@ -1,0 +1,52 @@
+@use '@angular/material' as mat;
+.horizontal_card{
+    width: calc(var(--card-scale) * 40%);
+    margin: 3rem;
+    overflow: hidden;
+    max-height: calc(340px * var(--card-scale));
+    min-width: calc(340px * var(--card-scale));
+}
+
+.card-content-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+img[mat-card-image] {
+    width: 50%;
+    object-fit: cover; /* contain */
+    object-position: center;
+    display: block;
+}
+
+.card-text-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.text-type{
+    color: rgba(160, 160, 160, 0.8);
+    margin-inline: 2rem;
+    margin-block: calc(var(--card-scale) * 1.6rem);
+    font-size: calc(var(--card-scale) * 1rem);
+}
+
+.text-content{
+    margin-inline: 2rem;
+    margin-block: 1rem;
+    font-size: calc(1.2rem * var(--card-scale));
+    height: calc(100px * var(--card-scale) / 1.25);
+    overflow: hidden;
+    line-height: calc(1.3rem * var(--card-scale));
+}
+
+.card-footer{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    font-weight: 500;
+    gap: 0.3rem;
+    font-size: calc(1rem * var(--card-scale));
+}

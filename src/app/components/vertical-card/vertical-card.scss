@@ -1,0 +1,38 @@
+.vertical_card {
+    margin: 3rem;
+    overflow: hidden;
+    max-width: calc(340px * var(--card-scale));
+    min-height: calc(340px * var(--card-scale));
+}
+
+.card-footer {
+    display: flex;
+    margin: 2rem;
+    font-weight: 500;
+    gap: 0.3rem;
+    font-size: calc(1rem * var(--card-scale));
+}
+
+.text-content {
+    margin-inline: 2rem;
+    margin-block: 1rem;
+    font-size: calc(1.2rem * var(--card-scale));
+    height: calc(100px * var(--card-scale) / 1.25);
+    overflow: hidden;
+    line-height: calc(1.3rem * var(--card-scale))
+}
+
+.text-type {
+    color: rgba(160, 160, 160, 0.8);
+    margin-inline: 2rem;
+    margin-block: calc(var(--card-scale) * 1.6rem);
+    font-size: calc(var(--card-scale) * 1rem);
+}
+
+img[mat-card-image] {
+    width: 100%;
+    height: calc(200px * var(--card-scale));
+    object-fit: cover; /* contain */
+    object-position: center;
+    display: block;
+}

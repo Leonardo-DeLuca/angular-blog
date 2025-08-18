@@ -1,0 +1,23 @@
+@use '@angular/material' as mat;
+
+.picker {
+    @include mat.select-overrides((
+        trigger-text-size: 1em
+    ));
+
+    width: 90px;
+
+    ::ng-deep mat-select-trigger {
+        display: flex !important;
+        justify-content: space-between;
+        gap: .1em;
+    }
+}
+
+.picker ::ng-deep .mat-mdc-select-trigger{
+    gap: .5em;
+}
+
+.iconLang{
+    height: 22px;
+}

@@ -1,0 +1,17 @@
+<mat-select class="picker" [(value)]="selectedVal" >
+    <mat-select-trigger>
+      @if (selectedLanguage) {
+        <img class="iconLang"
+          [src]="selectedLanguage.icon">
+        {{ selectedLanguage.name }}
+      }
+    </mat-select-trigger>
+  
+    <!-- opções -->
+    @for (language of languageList; track $index) {
+      <mat-option [value]="language.value">
+        {{ language.name }}
+      </mat-option>
+    }
+  </mat-select>
+  

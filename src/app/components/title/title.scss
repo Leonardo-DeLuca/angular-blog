@@ -1,0 +1,36 @@
+.title_text{
+    font-weight: 500;
+    text-align: left;
+    padding: 5rem;
+    color: #2b2b2b;
+    width: auto;
+    max-width: 100%;
+}
+
+@media screen and (min-width: 1921px) {
+    .title_text{
+        padding: 6rem;
+        font-size:2.5rem;  
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .title_text{
+        padding: 3rem;
+        font-size: 1.7rem;  
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title_text{
+        padding: 2rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .title_text{
+        padding: 1rem;
+        font-size: 1.5rem;  
+    }
+}

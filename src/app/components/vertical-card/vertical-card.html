@@ -1,0 +1,13 @@
+<mat-card class="vertical_card" appearance="filled"
+[style.--card-scale]="scale">
+    <img mat-card-image [src]="imgSrc">
+    <div class="card-text-content">
+        <mat-card-title class="text-type">{{type}}</mat-card-title>
+        <mat-card-subtitle class="text-content"> {{ text.length > maxTextChars ? text.slice(0, maxTextChars) + '...' : text }}</mat-card-subtitle>
+        <mat-card-footer class="card-footer">
+            <p class="autor">{{author}}</p>
+            <p>◾</p>
+            <p class="date">{{date}}</p>
+        </mat-card-footer>
+    </div>
+</mat-card>

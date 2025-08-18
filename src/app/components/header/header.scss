@@ -1,0 +1,29 @@
+@use '@angular/material' as mat;
+
+.header{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    justify-content: space-around;
+}
+
+.logo{
+    height: 40px;
+    margin-block: 1rem;
+}
+
+.navButtons{
+    display: flex;
+    gap: 2em;
+}
+
+.rightContent{
+    display: flex;
+    gap: 2em;
+}
+
+.lngPick{
+    align-content: end;
+}
