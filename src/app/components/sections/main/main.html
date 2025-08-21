@@ -1,0 +1,35 @@
+<section class="main">
+    <div class="square1"></div>
+    <div class="square2"></div>
+    <div class="square3"></div>
+
+    <app-title [textTitle]="'Latest News'"></app-title>
+    
+    
+    <div class="cards">
+        
+        <app-horizontal-card [type]="'Financial Advice'"
+            [text]="'Barely half of banks\' own employees would recommend their international payment services to customers'"
+            [author]="'Olivia Rhye'" [date]="'22 Jan 2022'" [maxTextChars]="101" [imgSrc]="'https://picsum.photos/500'" [scale]="3.3">
+        </app-horizontal-card>
+        <div class="smallCards">
+            <app-horizontal-card [type]="'Financial Advice'"
+                [text]="'Barely half of banks\' own employees would recommend their international payment services to customers'"
+                [author]="'Olivia Rhye'" [date]="'22 Jan 2022'" [maxTextChars]="101"
+                [imgSrc]="'https://picsum.photos/250'" [scale]="1">
+            </app-horizontal-card>
+            <app-horizontal-card [type]="'Financial Advice'"
+                [text]="'Barely half of banks\' own employees would recommend their international payment services to customers'"
+                [author]="'Olivia Rhye'" [date]="'22 Jan 2022'" [maxTextChars]="101"
+                [imgSrc]="'https://picsum.photos/200'" [scale]="1">
+            </app-horizontal-card>
+            <app-horizontal-card [type]="'Financial Advice'"
+                [text]="'Barely half of banks\' own employees would recommend their international payment services to customers'"
+                [author]="'Olivia Rhye'" [date]="'22 Jan 2022'" [maxTextChars]="101"
+                [imgSrc]="'https://picsum.photos/150'" [scale]="1">
+            </app-horizontal-card>
+        </div>
+    </div>
+
+
+</section>

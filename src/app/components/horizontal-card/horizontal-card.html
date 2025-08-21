@@ -1,15 +1,16 @@
-<mat-card class="horizontal_card" appearance="filled" [style.--card-scale]="scale">
-    <div class="card-content-wrapper">
-        <img mat-card-image [src]="imgSrc">
-
-        <div class="card-text-content">
-            <mat-card-title class="text-type">{{type}}</mat-card-title>
-            <mat-card-subtitle class="text-content"> {{ text.length > maxTextChars ? text.slice(0, maxTextChars) + '...' : text }}</mat-card-subtitle>
-            <mat-card-footer class="card-footer">
-                <p class="autor">{{author}}</p>
-                <p>◾</p>
-                <p class="date">{{date}}</p>
-            </mat-card-footer>
-        </div>
+<div class="horizontal-card" [style.--card-scale]="scale">
+  <div class="card-image">
+    <img [src]="imgSrc" alt="Card image">
+  </div>
+  <div class="card-content">
+    <div class="card-type">{{ type }}</div>
+    <p class="card-text">
+      {{ truncateText(text, maxTextChars) }}
+    </p>
+    <div class="card-footer">
+      <span class="author">{{ author }}</span>
+      <span class="separator">•</span>
+      <span class="date">{{ date }}</span>
     </div>
-</mat-card>
+  </div>
+</div>

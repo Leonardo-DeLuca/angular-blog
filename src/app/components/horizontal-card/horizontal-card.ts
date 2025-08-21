@@ -13,8 +13,12 @@ export class HorizontalCard {
   @Input() author: string = "";
   @Input() date: string = "";
   @Input() imgSrc: string = "";
-
   @Input() maxTextChars: number = 30;
-  
   @Input() scale: number = 1;
+
+  // Método para truncar o texto
+  truncateText(text: string, maxLength: number): string {
+    if (text.length <= maxLength) return text;
+    return text.substring(0, maxLength) + '...';
+  }
 }

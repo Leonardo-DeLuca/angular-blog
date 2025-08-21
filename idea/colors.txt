@@ -1,3 +1,4 @@
 footer - 1D2125
 bg - F8F8F8
 getApp - 0D5FE7
+mainSquares: F0F0F0

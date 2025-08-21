@@ -1,0 +1,55 @@
+.main {
+    background-color: #F8F8F8;
+    height: auto;
+}
+
+.square1 {
+    width: 90px;
+    height: 90px;
+    background-color: #F0F0F0;
+    position: absolute;
+    right: 0px;
+}
+
+.square2 {
+    width: 90px;
+    height: 90px;
+    background-color: #F0F0F0;
+    position: absolute;
+    right: 180px;
+}
+
+.square3 {
+    width: 90px;
+    height: 90px;
+    background-color: #F0F0F0;
+    position: absolute;
+    right: 90px;
+    top: 162px;
+}
+
+
+app-title {
+    font-size: 1.25em;
+    width: auto;
+    display: flex;
+    margin-left: 2.9em;
+}
+
+.cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.smallCards{
+    display: flex;
+    justify-content: space-around;
+    margin-block-start: 1em;
+    margin-block-end: 5em;
+    margin-inline: 6em;
+}
+
+.cards app-horizontal-card{
+    align-self: center;
+}

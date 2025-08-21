@@ -1,8 +1,8 @@
 .vertical_card {
-    margin: 3rem;
     overflow: hidden;
     max-width: calc(340px * var(--card-scale));
     min-height: calc(340px * var(--card-scale));
+    border: 1px solid #e5e7eb;
 }
 
 .card-footer {
@@ -35,4 +35,8 @@ img[mat-card-image] {
     object-fit: cover; /* contain */
     object-position: center;
     display: block;
+}
+
+.card-text-content{
+    background-color: #F8F8F8;
 }

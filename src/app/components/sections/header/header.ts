@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { BasicButton } from "../basic-button/basic-button";
-import { RoundButton } from "../round-button/round-button";
+import { BasicButton } from "../../basic-button/basic-button";
+import { RoundButton } from "../../round-button/round-button";
 import { LanguagePicker } from "./language-picker/language-picker";
 
 @Component({

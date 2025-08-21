@@ -1,8 +1,8 @@
 // language-picker.ts
 import { Component, inject } from '@angular/core';
 import { MatSelectModule } from '@angular/material/select';
-import { Languages } from '../../../interfaces/languages';
-import { LanguageList } from '../../../services/language-list';
+import { Languages } from '../../../../interfaces/languages';
+import { LanguageList } from '../../../../services/language-list';
 
 @Component({
   selector: 'app-language-picker',

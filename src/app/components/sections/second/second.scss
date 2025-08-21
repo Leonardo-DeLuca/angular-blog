@@ -1,0 +1,35 @@
+.second{
+    background-color: #ffffff;
+    position: relative;
+    height: 100%;
+}
+
+.square1{
+    width: 90px;
+    height: 90px;
+    background-color: #F8F8F8;
+    position: absolute;
+}
+
+.square2{
+    width: 90px;
+    height: 90px;
+    background-color: #F8F8F8;
+    position: absolute;
+    top: 180px;
+}
+
+.square3{
+    width: 90px;
+    height: 90px;
+    background-color: #F8F8F8;
+    position: absolute;
+    top: 90px;
+    left: 90px;
+}
+
+.cards{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}

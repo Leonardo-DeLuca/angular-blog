@@ -6,12 +6,13 @@
     display: flex;
     align-items: center;
     gap: 1em;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .logo{
     height: 40px;
     margin-block: 1rem;
+    margin-inline-start: 4rem;
 }
 
 .navButtons{
@@ -22,8 +23,9 @@
 .rightContent{
     display: flex;
     gap: 2em;
+    margin-inline-end: 5rem;
 }
 
 .lngPick{
-    align-content: end;
+    align-content: center;
 }
